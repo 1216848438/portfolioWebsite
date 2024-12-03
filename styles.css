@@ -51,16 +51,23 @@ body {
     line-height: 1.6;
     scroll-behavior: smooth;
 	background-image: url(`images/background.jpg`);
+	background-size: cover;
+	background-position: center;
+	background-attachment: center;
+	background-repeat: no-repeat;
 }
 
 header {
     position: sticky;
     top: 0;
+	background-color:aqua;
+	text-align: center;
 }
 
 footer {
     text-align: center;
     font-size: 0.9em;
+	bottom: 0;
 }
 
 .carousel-item {
@@ -70,3 +77,4 @@ footer {
 .carousel-item.active {
 	display: block;
 }
+

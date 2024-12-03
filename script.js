@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         function updateCarousel() {
             items.forEach((item, index) => {
-                item.style.display = index === currentIndex ? "block" : "none";
+                item.classList.toggle("active", index === currentIndex);
             });
         }
 

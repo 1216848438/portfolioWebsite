@@ -50,6 +50,7 @@ body {
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
     scroll-behavior: smooth;
+	background-image: url(`images/background.jpg`);
 }
 
 header {
@@ -60,4 +61,12 @@ header {
 footer {
     text-align: center;
     font-size: 0.9em;
+}
+
+.carousel-item {
+	display: none;
+}
+
+.carousel-item.active {
+	display: block;
 }

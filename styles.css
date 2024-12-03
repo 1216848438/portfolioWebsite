@@ -50,7 +50,7 @@ body {
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
     scroll-behavior: smooth;
-	background-image: url(`images/background.jpeg`);
+	background-image: url("images/background.jpeg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: center;
@@ -85,7 +85,7 @@ header nav {
 .name {
 	font-size: 1.5rem;
 	font-weight: 600;
-  
+	margin-left: 1rem;
 }
 
 .nav-links {

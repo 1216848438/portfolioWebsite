@@ -12,11 +12,9 @@
     <body>
         <header>
             <nav>
-                <div class = "logo-container">
-                    <a href = "#home" class = "logo">
+                <div class = "logo">
                         <img src = "images/logo.png" alt = "Macallan Butler's Logo">
                         <span class = "name">Macallan Butler's Portfolio</span>
-                    </a>
                 </div>
                 <div class = "nav-links">
                     <a href = "#home">Home</a>
@@ -28,32 +26,33 @@
         </header>
 
         <section id = "home">
-            <h1>Welcome To My Portfolio</h1>
-            <p>My name's Macallan Butler and I'm a Full Stack Web Designer. Please feel free to view my work and get in touch!</p>
+                <h2>Welcome To My Portfolio</h2>
+                <p>My name's Macallan Butler and I'm a Full Stack Web Designer. Please feel free to view my work and get in touch!</p>
         </section>
 
         <section id = "about">
-            <h2>About Me</h2>
-            <div class = "about-content">
-                <img src = "images/headshot.jpg" alt = "Macallan Butler's Headshot" class = "headshot">
-                    <p>I’m Macallan Butler, a graduate of Arizona State University with a degree in Graphic Information Technology, specializing in full-stack web design. With a passion for UX and SEO, I aim to combine creativity and technical expertise to craft impactful digital experiences.</p>
+                <h2>About Me</h2>
+                    <div class = "about-content">
+                        <img src = "images/headshot.jpg" alt = "Macallan Butler's Headshot" class = "headshot">
+                            <p>I’m Macallan Butler, a graduate of Arizona State University with a degree in Graphic Information Technology, specializing in full-stack web design. With a passion for UX and SEO, I aim to combine creativity and technical expertise to craft impactful digital experiences.<br>
 
-                    <p>Originally from Chicago, I’m a 24-year-old driven by adaptability, loyalty, and a love of exploration. My ultimate professional goal is to establish my own web design and SEO business, empowering small businesses around the world to thrive in the digital space.</p>
-                    
-                    <p>One project I’m particularly proud of is my interactive quiz website focused on snow leopard conservation—a project that reflects my commitment to creating meaningful and engaging online experiences, though I recognize there’s always room for improvement.</p>
-                    
-                    <p>When I’m not designing or optimizing, I enjoy lifting weights, following the thrilling world of Formula 1, and immersing myself in a good book. Whether collaborating on innovative designs or building SEO strategies, I’m always eager to learn, grow, and make a lasting impact.</p>
-            </div>
+                            Originally from Chicago, I’m a 24-year-old driven by adaptability, loyalty, and a love of exploration. My ultimate professional goal is to establish my own web design and SEO business, empowering small businesses around the world to thrive in the digital space.<br>
+                            
+                            One project I’m particularly proud of is my interactive quiz website focused on snow leopard conservation—a project that reflects my commitment to creating meaningful and engaging online experiences, though I recognize there’s always room for improvement.<br>
+                            
+                            When I’m not designing or optimizing, I enjoy lifting weights, following the thrilling world of Formula 1, and immersing myself in a good book. Whether collaborating on innovative designs or building SEO strategies, I’m always eager to learn, grow, and make a lasting impact.</p>
+                    </div>
         </section>
 
         <section id = "projects">
             <h2>My Projects</h2>
+            <div class = "project-container">
             <div class ="project">
                 <h3>Project 1: Snow Leopard Conservation Quiz Website</h3>
                     <div class = "carousel" id = "carousel-1">
-                        <div class = "carousel-item"><img src = "slHome.png" alt = "Snow Leopard Conservation Quiz Home Page"</div>
-                        <div class = "carousel-item"><img src = "slQuiz.png" alt = "Snow Leopard Conservation Quiz Quiz Page"</div>
-                        <div class = "carousel-item"><img src = "slGalllery.png" alt = "Snow Leopard Conservation Quiz Gallery Page"</div>
+                        <div class = "carousel-item"><img src = "images/slHome.png" alt = "Snow Leopard Conservation Quiz Home Page" /></div>
+                        <div class = "carousel-item"><img src = "images/slQuiz.png" alt = "Snow Leopard Conservation Quiz Quiz Page" /></div>
+                        <div class = "carousel-item"><img src = "images/slGalllery.png" alt = "Snow Leopard Conservation Quiz Gallery Page" /></div>
 
                         <button class = "carousel-previous">Previous</button>
                         <button class = "carousel-next">Next</button>
@@ -62,14 +61,14 @@
             </div>
                 
             <div class = "project">
-                <h3>Project 2: </h3>
+                <h3>Project 2: Formula One Conference Materials</h3>
                     <div class = "carousel" id = "carousel-2">
-                        <div class = "carousel-item"><img src = "f1Invite.png" alt = "Formula 1 Conference Invite"</div>
-                        <div class = "carousel-item"><img src = "f1Contents.png" alt = "Formula 1 Conference Table of Contents"</div>
-                        <div class = "carousel-item"><img src = "f1Keynote.png" alt = "Formula 1 Conference Keynote Speaker"</div>
-                        <div class = "carousel-item"><img src = "f1Schedule.png" alt = "Formula 1 Conference Schedule"</div>
-                        <div class = "carousel-item"><img src = "f1Table.png" alt = "Formula 1 Conference Table Tent"</div>
-                        <div class = "carousel-item"><img src = "f1Lanyard.png" alt = "Formula 1 Conference Attendee Lanyard"</div>
+                        <div class = "carousel-item"><img src = "images/f1Invite.png" alt = "Formula 1 Conference Invite" /></div>
+                        <div class = "carousel-item"><img src = "images/f1Contents.png" alt = "Formula 1 Conference Table of Contents" /></div>
+                        <div class = "carousel-item"><img src = "images/f1Keynote.png" alt = "Formula 1 Conference Keynote Speaker" /></div>
+                        <div class = "carousel-item"><img src = "images/f1Schedule.png" alt = "Formula 1 Conference Schedule" /></div>
+                        <div class = "carousel-item"><img src = "images/f1Table.png" alt = "Formula 1 Conference Table Tent" /></div>
+                        <div class = "carousel-item"><img src = "images/f1Lanyard.png" alt = "Formula 1 Conference Attendee Lanyard" /></div>
 
 
                         <button class = "carousel-previous">Previous</button>
@@ -79,17 +78,18 @@
             </div>
 
             <div class = "project">
-                <h3>Project 3:</h3>
+                <h3>Project 3: Displate Alternative UX</h3>
                     <div class = "carousel" id = "carousel-3">
-                        <div class = "carousel-item"><img src = "dpHome.png" alt = "Displate UX homepage"</div>
-                        <div class = "carousel-item"><img src = "dpLogin.png" alt = "Displate UX login page"</div>
-                        <div class = "carousel-item"><img src = "dpAcc.png" alt = "Displate Account page"</div>
-                        <div class = "carousel-item"><img src = "dpCheckout.png" alt = "Displate UX checkout page"</div>
+                        <div class = "carousel-item"><img src = "images/dpHome.png" alt = "Displate UX homepage" /></div>
+                        <div class = "carousel-item"><img src = "images/dpLogin.png" alt = "Displate UX login page" /></div>
+                        <div class = "carousel-item"><img src = "images/dpAcc.png" alt = "Displate Account page" /></div>
+                        <div class = "carousel-item"><img src = "images/dpCheckout.png" alt = "Displate UX checkout page" /></div>
 
                         <button class = "carousel-previous">Previous</button>
                         <button class = "carousel-next">Next</button>
                     </div>
                     <p>Project Description</p>
+                    </div>
             </div>
         </section>
 
